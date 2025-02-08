@@ -110,18 +110,31 @@
 //     }    
 // }
 // export default FBCPropex1
-import React, {Component} from 'react'
-import PropsChildren from './propexample/PropsChildren';
-import SubChildProps from './propexample/SubChildProps';
+// import React, {Component} from 'react'
+// import PropsChildren from './propexample/PropsChildren';
+// import SubChildProps from './propexample/SubChildProps';
 
-const App = () => {
-    return (
-      <div>
-        <PropsChildren username="Varun" company="Google">
-        <h1>This data is passing as a props to child components</h1>
-        <SubChildProps/>
-        </PropsChildren>
-      </div>
-    )
-  }
- export default App;
+// const App = () => {
+//     return (
+//       <div>
+//         <PropsChildren username="Varun" company="Google">
+//         <h1>This data is passing as a props to child components</h1>
+//         <SubChildProps/>
+//         </PropsChildren>
+//       </div>
+//     )
+//   }
+//  export default App;
+import React from 'react';
+import Form from './Form';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>React Form Component</h1>
+      <Form />
+    </div>
+  );
+}
+
+export default App;
