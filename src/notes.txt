@@ -1,0 +1,13 @@
+rcc
+rfce
+rce
+
+
+TIghtcoupling:
+one is dependent upon another between components
+
+Controlled form elements or controlled components:
+Form handling
+
+useeffect():-
+

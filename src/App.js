@@ -125,16 +125,15 @@
 //     )
 //   }
 //  export default App;
-import React from 'react';
-import Form from './Form';
+import React from 'react'
+import UseEffectEx from './hookexample/UseEffectEx'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>React Form Component</h1>
-      <Form />
+    <div>
+      <UseEffectEx></UseEffectEx>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
