@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Mahesh",
+      "email": "mahesh@gmail.com",
+      "phone": "9177462982"
+    },
+    {
+      "id": "2",
+      "name": "Arjun",
+      "email": "Arjun@gmail.com",
+      "phone": "1234567890"
+    },
+    {
+      "name": "Sandy",
+      "email": "sandy@gmail.com",
+      "phone": "9573903224",
+      "id": "3"
+    },
+    {
+      "id": "b685",
+      "name": "varun",
+      "email": "varunpoloju15@gmail.com",
+      "phone": "8790588233"
+    }
+  ]
+}
